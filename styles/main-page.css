@@ -12,11 +12,15 @@
   width: 100%;
 }
 .navbar a {
-  float: left;
+  float: right;
   display: block;
   color:  #f2f2f2;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.main {
+  margin-top: 30px;
 }
 
 /* .img-responsive {
