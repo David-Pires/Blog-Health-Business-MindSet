@@ -75,7 +75,6 @@ img, p {
  max-width: 100%;
  width: 100px;
  height: 120px;
- object-fit: cover;
- 
+ object-fit: cover; 
 }
 
