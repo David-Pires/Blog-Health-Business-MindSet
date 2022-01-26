@@ -3,11 +3,27 @@ body {
 }
 
 .health-business-title {
+
   margin: 0 46% 0 0;
   text-decoration: none;
-  font-size: larger;
+  font-size: 17px;
 }
 
+.health-business-title:hover {
+  text-decoration: none;
+  margin: 0 46% 0 0;
+  font-size: larger;
+}
+.fa-facebook-f:hover {
+  color: aqua;
+}
+.fa-twitter:hover {
+  color: aqua;
+}
+.fa-instagram:hover {
+  color: aqua;
+
+}
 .navegacao { 
   z-index: 1;
   overflow: hidden;
@@ -44,8 +60,15 @@ body {
 
 .sub-navegacao a {  
   text-transform: uppercase;
-  
-  
+  text-decoration: none;
+   
+}
+.sub-navegacao a:hover { 
+  color: aqua;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+   
 }
 main {
   margin-top: 150px;
