@@ -1,8 +1,6 @@
 body {  
- height: auto;
-  
+ height: auto;  
 }
-
 
 .health-business-title {
   margin: 0 46% 0 0;
@@ -24,11 +22,33 @@ body {
   display: block;
   color: #f2f2f2;
   padding: 14px 16px;
+  
   text-decoration: none;
 }
+.sub-navegacao {  
+  top: 60px;
+  width: 100%;   
+  position: fixed;
+  font-size: 25px;
+  color: black;
+  background-color: rgba(117, 111, 103, 0.911); 
+  border: 0 none; 
+  opacity: 96%;    
+  display: block;  
+}
+.sub-navegacao li {
+  position: relative;
+  margin: 0 42% 0 auto;
+  
+}
 
+.sub-navegacao a {  
+  text-transform: uppercase;
+  
+  
+}
 main {
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .main-frame {
@@ -103,7 +123,7 @@ main {
   padding: 2.5rem;
   margin-top: 1.5rem;
   width: 100%;   
-  max-height: 30%;
+  max-height: 25%;
   background-color: rgb(160, 151, 141);
   position: fixed; 
   bottom: 0;
@@ -112,4 +132,7 @@ main {
   text-align: justify;
   text-justify: inter-word;
   text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
  }
