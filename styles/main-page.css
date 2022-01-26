@@ -2,14 +2,14 @@ body {
   height: auto;
 }
 .main-frame {
-  padding: 1%;
   width: 940px;
+  padding: 1%;
   margin: 0 auto;
-  border: 5px solid black;
-  background-color: #fefefe;
+  /* border: 5px solid black; */
+  background-color: #d1d6db;
 }
 .health-business-title {
-  margin: 0 41% 0 0;
+  margin: 0 46% 0 0;
   text-decoration: none;
   font-size: larger;
 }
@@ -35,18 +35,18 @@ body {
 
 
 .container-main-content {
+  display: inline-block;   
   padding: 1%;
   background: rgb(160, 151, 141);
 }
-.main-content {
-  display: inline-block;
+.main-content {  
   width: 50%;
   border: black;
 }
 .main-image {
   width: 100%;
 }
-.main-content p {
+.main-content p {  
   color: #f2f2f2;
   margin-bottom: 5px;
   text-align: justify;
@@ -56,16 +56,14 @@ body {
 .side-content {  
   
   display: flex;
-  height: 120px;
-  align-items: center;
+  height: 120px;  
   width: 45%;
   border: black solid;
-  margin-left: 55%;
+  /* margin-left: 55%; */
   margin-bottom: 5;
 }
 
-img, p {
-  display: inline-block;
+ img + p {  
   text-align: justify;
   text-justify: inter-word;
 
