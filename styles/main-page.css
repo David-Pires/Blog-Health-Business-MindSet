@@ -1,4 +1,4 @@
-body {
+body {  
   height: auto;
 }
 .main-frame {
@@ -7,6 +7,7 @@ body {
   margin: 0 auto;
   /* border: 5px solid black; */
   background-color: #d1d6db;
+  
 }
 .health-business-title {
   margin: 0 46% 0 0;
@@ -34,33 +35,35 @@ body {
 }
 
 
-.container-main-content {
+.main-content-container {
   display: inline-block;   
   padding: 1%;
   background: rgb(160, 151, 141);
+  
 }
 .main-content {  
-  width: 50%;
-  border: black;
+  position: absolute;
+  max-width: 430px;
+  min-width: 230px; 
+
+  cursor: pointer;  
 }
-.main-image {
-  width: 100%;
-}
-.main-content p {  
+
+.main-content p {   
   color: #f2f2f2;
   margin-bottom: 5px;
   text-align: justify;
   text-justify: inter-word;
 }
 
-.side-content {  
-  
+.side-content {    
   display: flex;
   height: 120px;  
-  width: 45%;
-  border: black solid;
-  /* margin-left: 55%; */
-  margin-bottom: 5;
+  width: 47%; 
+  margin-left: 51%;
+  margin-bottom: 5px;
+  margin-bottom: 3px;
+  cursor: pointer;
 }
 
  img + p {  
@@ -70,9 +73,22 @@ body {
  }
 .side-content img {
  padding: 1%;
- max-width: 100%;
- width: 100px;
+ max-width: 35%; 
  height: 120px;
- object-fit: cover; 
+ object-fit: cover;
+  
+}
+
+.fist-side-content,p { 
+  color: #f2f2f2;
+  /* background-color: rgb(93, 167, 167); */
+}
+.second-side-content {
+  /* background-color: rgb(76, 67, 151); */
+  
+}
+.third-side-content {
+  /* background-color: rgb(7, 65, 10); */
+  
 }
 
