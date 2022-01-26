@@ -1,11 +1,12 @@
 body {  
-  height: auto;
+ 
+  
 }
+
 .main-frame {
   width: 940px;
   padding: 1%;
-  margin: 0 auto;
-  /* border: 5px solid black; */
+  margin: 0 auto;  
   background-color: #d1d6db;
   
 }
@@ -15,13 +16,13 @@ body {
   font-size: larger;
 }
 
-.navbar {
-  width: 100%;
-  overflow: hidden;
+.navbar { 
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
   background-color: rgb(160, 151, 141);
-  position: fixed;
-  top: 0;
+  width: 100%; /* Full width */
 }
+
 .navbar a {
   float: right;
   display: block;
@@ -92,3 +93,17 @@ body {
   
 }
 
+.copy-right {  
+  padding: 2.5rem;
+  margin-top: 1.5rem;
+  width: 100%;   
+  max-height: 30%;
+  background-color: rgb(160, 151, 141);
+  position: fixed; 
+  bottom: 0;
+}
+.copy-right p{
+  text-align: justify;
+  text-justify: inter-word;
+  text-align: center;
+ }
