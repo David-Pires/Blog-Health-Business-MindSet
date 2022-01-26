@@ -1,6 +1,34 @@
 body {  
- 
+ height: auto;
   
+}
+
+
+.health-business-title {
+  margin: 0 46% 0 0;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.navegacao { 
+  z-index: 1;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  background-color: rgb(160, 151, 141);
+  width: 100%; /* Full width */
+}
+
+.navegacao  a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 100px;
 }
 
 .main-frame {
@@ -10,43 +38,21 @@ body {
   background-color: #d1d6db;
   
 }
-.health-business-title {
-  margin: 0 46% 0 0;
-  text-decoration: none;
-  font-size: larger;
-}
-
-.navbar { 
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  background-color: rgb(160, 151, 141);
-  width: 100%; /* Full width */
-}
-
-.navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.main {
-  margin-top: 30px;
+main {    
+  background: #fefefe; 
 }
 
 
 .main-content-container {
-  display: inline-block;   
+  /* display: inline-block;    */
   padding: 1%;
-  background: rgb(160, 151, 141);
-  
+  background: rgb(160, 151, 141);  
 }
-.main-content {  
+
+.main-content {    
   position: absolute;
   max-width: 430px;
   min-width: 230px; 
-
   cursor: pointer;  
 }
 
@@ -72,7 +78,7 @@ body {
   text-justify: inter-word;
 
  }
-.side-content img {
+.side-content img { 
  padding: 1%;
  max-width: 35%; 
  height: 120px;
