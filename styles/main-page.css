@@ -39,7 +39,8 @@
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  background-color: rgb(160, 151, 141);
+  /* background-color: rgb(160, 151, 141); */
+  background-color: #C7B198;
   width: 100%; /* Full width */
 }
 .navegacao  a {
@@ -56,7 +57,8 @@
   position: fixed;
   font-size: 26px;
   color: black;
-  background-color: rgba(117, 111, 103, 0.911); 
+  /* background-color: rgba(117, 111, 103, 0.911);  */
+  background-color: #b3a28d;
   border: 0 none; 
   opacity: 96%;    
   display: block;  
@@ -87,7 +89,7 @@ main {
 .main-frame {  
   
   
-  background-color: #d1d6db;
+  background-color: #DFD3C3;
   width: 940px;
   padding: 1%;
   margin: 0 auto;  
@@ -97,7 +99,7 @@ main {
 .main-content-container {
     
   padding: 1%;
-  background: rgb(160, 151, 141);  
+  background: #b3a28d;  
 }
 .main-content {    
   position: absolute;
@@ -170,17 +172,18 @@ main {
 .copy-right-footer { 
   position: fixed; 
   overflow: hidden;
-  padding: 2.5rem;
+  padding: 1rem;
   margin-top: 1.5rem;
   width: 100%;   
-  max-height: 25%;
-  background-color: rgb(160, 151, 141);
+  max-height: 50px ;
+  background-color: #C7B198;
   bottom: 0;
   opacity: 97%;
 }
-.copy-right-footer p{    
+.copy-right-footer p{ 
+  vertical-align: text-top;   
   text-align: center;
   color: white;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 1.3rem;
+  margin-bottom: 50px; 
  }
