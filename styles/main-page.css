@@ -1,18 +1,19 @@
 body {  
- height: auto;  
+  background-image: url("/images/abstract-background.jpg")  ;
+  /* height: auto;   */
 }
 
 .health-business-title {
-
   margin: 0 46% 0 0;
   text-decoration: none;
   font-size: 17px;
+  
 }
 
 .health-business-title:hover {
   text-decoration: none;
   margin: 0 46% 0 0;
-  font-size: larger;
+  
 }
 .fa-facebook-f:hover {
   color: aqua;
@@ -45,7 +46,7 @@ body {
   top: 60px;
   width: 100%;   
   position: fixed;
-  font-size: 25px;
+  font-size: 26px;
   color: black;
   background-color: rgba(117, 111, 103, 0.911); 
   border: 0 none; 
@@ -53,7 +54,7 @@ body {
   display: block;  
 }
 .sub-navegacao li {
-  position: relative;
+  
   margin: 0 42% 0 auto;
   
 }
@@ -70,26 +71,23 @@ body {
   text-decoration: none;
    
 }
-main {
+main {  
   margin-top: 150px;
-}
+  }
 
 .main-frame {
+  background-color: #d1d6db;
   width: 940px;
   padding: 1%;
   margin: 0 auto;  
-  background-color: #d1d6db;
+  border-radius: 4px; 
   
 }
-main {    
-  background: #fefefe; 
-}
-
-
 .main-content-container {
-  /* display: inline-block;    */
+  
   padding: 1%;
-  background: rgb(160, 151, 141);  
+  background: rgb(160, 151, 141); 
+  
 }
 
 .main-content {    
@@ -142,18 +140,18 @@ main {
   
 }
 
-.copy-right {  
+.copy-right-footer { 
+  position: fixed; 
+  overflow: hidden;
   padding: 2.5rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   width: 100%;   
   max-height: 25%;
   background-color: rgb(160, 151, 141);
-  position: fixed; 
   bottom: 0;
+  opacity: 98%;
 }
-.copy-right p{
-  text-align: justify;
-  text-justify: inter-word;
+.copy-right-footer p{    
   text-align: center;
   color: white;
   font-size: 20px;
