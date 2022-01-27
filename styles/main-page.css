@@ -1,6 +1,5 @@
 body {  
   background-image: url("/images/abstract-background.jpg")  ;
-  /* height: auto;   */
 }
 
 .health-business-title {
@@ -33,15 +32,14 @@ body {
   background-color: rgb(160, 151, 141);
   width: 100%; /* Full width */
 }
-
 .navegacao  a {
   float: right;
   display: block;
   color: #f2f2f2;
-  padding: 14px 16px;
-  
+  padding: 14px 16px;  
   text-decoration: none;
 }
+
 .sub-navegacao {  
   top: 60px;
   width: 100%;   
@@ -53,13 +51,12 @@ body {
   opacity: 96%;    
   display: block;  
 }
-.sub-navegacao li {
-  
-  margin: 0 42% 0 auto;
-  
+.sub-navegacao li {  
+  margin: 0 42% 0 auto;  
 }
 
-.sub-navegacao a {  
+.sub-navegacao a { 
+  font-size: 25px;
   text-transform: uppercase;
   text-decoration: none;
    
