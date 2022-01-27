@@ -77,16 +77,12 @@ main {
   width: 940px;
   padding: 1%;
   margin: 0 auto;  
-  border-radius: 4px; 
-  
+  border-radius: 4px;   
 }
-.main-content-container {
-  
+.main-content-container {  
   padding: 1%;
-  background: rgb(160, 151, 141); 
-  
+  background: rgb(160, 151, 141);  
 }
-
 .main-content {    
   position: absolute;
   max-width: 430px;
@@ -111,7 +107,7 @@ main {
   cursor: pointer;
 }
 
- img + p {  
+  img + p  {  
   text-align: justify;
   text-justify: inter-word;
 
@@ -119,34 +115,52 @@ main {
 .side-content img { 
  padding: 1%;
  max-width: 35%; 
- height: 120px;
+ height: 98px;
  object-fit: cover;
+ 
+}
+.side-content p {    
+  color: #f2f2f2;
+}
+.fist-side-content img { 
+  object-fit: inherit;
   
+}
+/* :nth-child(1) */
+.first-side-content div h3 { 
+  width: 100%;
+  padding: 1%;
+  font-size: 1.5rem;
+  color: #f2f2f2;
+  margin-left: 15%;  
 }
 
-.fist-side-content,p { 
+.first-side-content p { 
+  width: 100%;
+  padding: 1%;
+  font-size: 1.5rem;
   color: #f2f2f2;
-  /* background-color: rgb(93, 167, 167); */
+  margin-left: 6%;  
+  text-align: center;
+  text-justify: inter-word;
 }
-.second-side-content {
-  /* background-color: rgb(76, 67, 151); */
-  
+/* .second-side-content {
 }
 .third-side-content {
-  /* background-color: rgb(7, 65, 10); */
   
-}
+  
+} */
 
 .copy-right-footer { 
   position: fixed; 
   overflow: hidden;
   padding: 2.5rem;
-  /* margin-top: 1.5rem; */
+  margin-top: 1.5rem;
   width: 100%;   
   max-height: 25%;
   background-color: rgb(160, 151, 141);
   bottom: 0;
-  opacity: 98%;
+  opacity: 97%;
 }
 .copy-right-footer p{    
   text-align: center;
