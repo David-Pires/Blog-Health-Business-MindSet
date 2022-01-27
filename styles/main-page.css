@@ -1,5 +1,15 @@
-body {
-    background-image: url("https://blog.udemy.com/wp-content/uploads/2014/04/bigstock-Vector-abstract-background-com-40902397.jpg");
+
+
+.back-ground-image-div{
+  z-index: -3;
+  position: fixed;
+  width: 100%;
+  height: 100%;  
+  background-image: linear-gradient(rgba(241, 154, 111, 0.253), rgba(61, 31, 31, 0.822)), url("https://previews.123rf.com/images/number168/number1681702/number168170200035/72335654-abstract-futuristic-hexagon-shape-on-light-gray-color-background-vector-illustration-science-innovat.jpg");
+  background-size: initial;
+  opacity: 30%;
+  top: 0;
+  
 }
 
 .health-business-title {
@@ -69,17 +79,23 @@ body {
    
 }
 main {  
+  
   margin-top: 150px;
+  
   }
 
-.main-frame {
+.main-frame {  
+  
+  
   background-color: #d1d6db;
   width: 940px;
   padding: 1%;
   margin: 0 auto;  
-  border-radius: 4px;   
+  border-radius: 4px;  
+
 }
-.main-content-container {  
+.main-content-container {
+    
   padding: 1%;
   background: rgb(160, 151, 141);  
 }
