@@ -112,9 +112,8 @@ main {
   display: flex;
   height: 120px;
   width: 47%;
-  margin-left: 51%;
-  margin-bottom: 5px;
-  margin-bottom: 3px;
+  margin-right: 45%;
+  margin-bottom: 5px;  
 }
 
 img + p {
