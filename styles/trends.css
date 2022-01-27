@@ -95,7 +95,7 @@ main {
   background: #b3a28d;
 }
 .main-content {
-  position: absolute;
+  position: relative;
   max-width: 430px;
   min-width: 230px;
   margin: 0 auto 15px;
